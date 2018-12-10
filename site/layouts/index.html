@@ -1,13 +1,32 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "header" . }}
+<body>
+<header class="header" id="header">
+  <div class="general-container" >
+    <a class="logo" id="logo" href="#header">{{ .Title }}</a>
+    <div class="burger clearfix ">
+      <div class=burger-menu></div>
+      <div class=burger-menu></div>
+      <div class=burger-menu></div>
+    </div>
+    {{ partial "nav" . }}
+  </div>
+</header>
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+<main class="main">
 
-{{ partial "short-text" .Params.blurb}}
+  {{ partial "startup" . }}
+  <!-- {{ partial "services" . }}
+  {{ partial "about" . }}
+  {{ partial "tabs" . }}
+  {{ partial "project" . }}
+  {{ partial "blog" . }} -->
+  <!-- {{ partial "slider" . }} -->
+  {{ partial "touch" . }}
 
-{{ partial "2-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
-
-{{ end }}
+</main>
+{{ partial "footer" . }}
+</body>
+</html>
