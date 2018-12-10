@@ -83,7 +83,7 @@ collections: # A list of collections the CMS should be able to edit
               - {label: Image, name: imageUrl, widget: image}
       - file: "site/content/test/_index.md"
         label: "Test Page"
-        name: "test"
+        name: "products"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Image, name: image, widget: image}
