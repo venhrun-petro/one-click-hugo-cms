@@ -1,22 +1,19 @@
-<section class="blog" id="blog">
-    <div class="general-container">
-        <h3 class="services_general-title">Recent blog posts</h3>
-        <br>
-        <strong class="services_row">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</strong><br>
-        {{ range $.Site.Data.blog.blog.ideas }}
-        <div class="idea-container">
-            <div class="idea-container_cont-img">
-                <img class="idea-container_cont-img_img lazy-img" data-src="{{ .img }}" alt=" {{ .name }} ">
-            </div>
-            <div class="idea-container_cont-txt">
-                <p class="data"><strong>{{ .number }}</strong><br>{{ .month }}</p>
-                <h3 class="idea_title"><span class="color-red">{{ .title }} </span><br><span class="min-txt">
-                    {{ .mintxt }} <span class="color-red">{{ .mintxtred }} </span>{{ .titlemintxtblack2 }}
-                    <span class="color-red">{{ .titlemintxtblack }}</span> </span></h3>
-                <p class="idea_txt">{{ .txt }}</p>
-                <a class="more"><span class="color-red">{{ .more }}</span></a>
-            </div>
-        </div>
-        {{ end }}
-    </div>
-</section>
+<div class="bg-off-white pv4">
+	<div class="ph3 mw7 center">
+
+		<h2 class="f2 b lh-title mb3">Latest stories</h1>
+
+		<div class="w-100 flex-ns mhn1-ns flex-wrap mb3">
+			{{ range first 4 (where .Data.Pages "Type" "post") }}
+				<div class="ph1-ns w-50-ns flex">
+					{{ .Render "li" }}
+				</div>
+			{{ end }}
+		</div>
+
+		<div class="tc">
+			<a href="/post" class="btn raise">Read more</a>
+		</div>
+
+	</div>
+</div>
