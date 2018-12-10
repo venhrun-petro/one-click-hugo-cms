@@ -1,8 +1,5 @@
 {{ define "main" }}
 
-{{ range .Site.content.products._index }}
-<h2>{{ .test }}</h2>
-  {{ end }}
 
 {{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
 
