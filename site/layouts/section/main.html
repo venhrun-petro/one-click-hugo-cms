@@ -1,13 +1,7 @@
 {{ define "main" }}
 
 
-  {{ if and (isset .Params "intro") (eq .Params.intro.enable "true") }}
 
-  {{ end }}
-
-  {{ if and (isset .Params "wrapper") (eq .Params.wrapper.enable "true") }}
-
- {{ end }}
     {{ partial "slider.html" .Params.intro }}
    {{ partial "wrapper.html" .Params.wrapper }}
 
