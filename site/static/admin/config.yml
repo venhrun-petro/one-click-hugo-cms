@@ -72,10 +72,11 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [
             {label: Heading, name: title, widget: text},
-            {label: Subtitle, name: subtitle, widget: text}
+            {label: Body, name: newcontent, widget: markdown}
             ]}
           - {label: About Us, name: wrapper, widget: object, fields: [
             {label: Titke, name: title, widget: text},
+            {label: Italic, name: italic, widget: text},
             {label: Italic, name: italic, widget: text},
             {label: Content, name: content, widget: list, fields:[
             {label: Paragraph, name: paragraph, widget: text}
