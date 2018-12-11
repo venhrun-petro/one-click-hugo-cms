@@ -1,17 +1,16 @@
 {{ define "main" }}
 
 
-  {{ if and (isset .Params "intro") (eq .Params.intro.enable "true") }}
+
     {{ partial "slider.html" .Params.intro }}
-  {{ end }}
 
-  {{ if and (isset .Params "wrapper") (eq .Params.wrapper.enable "true") }}
+
     {{ partial "wrapper.html" .Params.wrapper }}
-  {{ end }}
 
-  {{ if and (isset .Params "philosofy") (eq .Params.philosofy.enable "true" ) }}
+
+
     {{ partial "feature.html" .Params.philosofy }}
-  {{ end }}
+
 
 
   {{ if and .Site.Data.service .Site.Data.service.enable }}

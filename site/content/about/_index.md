@@ -42,52 +42,6 @@ philosofy:
     survive.
 
 
-    1. Processes are that involve global networking survive.
-
-    2. Ownership of things gives way to “On Demand” services.
-
-
-
-    Movies, music, news are more and more consumed as one time stream from the
-    cloud rather than buying and storing it on your PC or as a hard copy. Also
-    Bikes, Cars are more and more used via sharing services rather than by
-    owning one. The real estate market also undergoes this change. We see the
-    meteoric rise of office coworking space company “WeWork”. The concept
-    involves buying membership in a global network of offices, rather than
-    buying or renting specific office. The concept also involves global network
-    of members that interact with each other. We also see the efforts to make a
-    start up in the area of residential real estate. For example a “WeWork” spin
-    off “We live”. Roam.co However a lot is yet to be done in this field. We
-    propose to create a new philosophy of residential real estate approach that
-    promotes and enables a new concept of life in accordance with latest
-    tendencies. To adjust the actual Real Estate project we must first define
-    the right lifestyle for a new generation of people. We will call this new
-    lifestyle “New Exist” (NE).
-
-    Movies, music, news are more and more consumed as one time stream from the cloud rather than buying and storing it on your PC or as a hard copy. Also Bikes, Cars are more and more used via sharing services rather than by owning one. The real estate market also undergoes this change. We see the meteoric rise of office coworking space company “WeWork”. The concept involves buying membership in a global network of offices, rather than buying or renting specific office. The concept also involves global network of members that interact with each other. We also see the efforts to make a start up in the area of residential real estate. For example a “WeWork” spin off “We live”. Roam.co However a lot is yet to be done in this field. We propose to create a new philosophy of residential real estate approach that promotes and enables a new concept of life in accordance with latest tendencies. To adjust the actual Real Estate project we must first define the right lifestyle for a new generation of people. We will call this new lifestyle “New Exist” (NE).
-
-    LIving in center of big city.
-
-
-    1. Minimal ownership of objects. The NE person owns minimal amount of
-    objects. A few jeans, a few T shirts, sneakers, a notebook and as smartphone
-    is basically all he needs.
-
-    2. The NE Person is creative and productive. He values his time.
-
-    3. And tries to waste as little time as possible on “technical” household
-    chores such as cleaning, cooking and washing clothes (unless he decides one
-    of those things is a hobby).
-
-
-
-    The housing solution should address those lifestyle principles.
-  enable: 'true'
-  title: OUR PHILOSOPHY
-
-
-
-
 
 
 ---
