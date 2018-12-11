@@ -45,10 +45,10 @@
 .block_paragraph{
   padding-top: 0px!important;
 }
-.philosofy p, .about_text{
+.about_text{
   text-align: justify;
 }
-.philosofy li, .my-list{
+.my-list{
   margin: 10px 0;
   text-align: left;
 }
@@ -71,7 +71,6 @@
 }
 .v-block .about_text{
   font-size: 16px!important;
-  text-align: left;
 }
 .navbar-brand>img {
     display: block;

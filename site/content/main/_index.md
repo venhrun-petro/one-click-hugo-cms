@@ -11,6 +11,7 @@ wrapper:
     enables a new concept of life in accordance with latest tendencies
   title: The KEEBOOTS FAMILY house
 wrapper:
+  enable: 'true'
   content:
     - paragraph: >-
         Kee-Boots is a real estate start up that specialises in innovative
@@ -29,7 +30,6 @@ wrapper:
         It is a way of living with special values, that is now on the decline .
         We revive the spirit of collective working and living in a completely
         new way.
-  enable: 'true'
   italic: Kee-Boots
   title: About Us
 philosofy:
@@ -84,6 +84,6 @@ philosofy:
     The housing solution should address those lifestyle principles.
   enable: 'true'
   title: OUR PHILOSOPHY
-  caption : "View Works"
+  caption : "sadView Works"
   url : "#service"
 ---
