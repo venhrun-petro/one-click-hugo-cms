@@ -110,8 +110,7 @@ koliving:
   enable: true
   title: Keeboots Coliving
 plan:
-  content: ''
+  content: |
   enable: 'true'
   tile: Keeboots Coliving
 ---
-
