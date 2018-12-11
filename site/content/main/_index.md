@@ -1,12 +1,17 @@
 ---
 title: Main
 intro:
-  enable: true
+  enable: "true"
+  title: "The KEEBOOTS FAMILY house"
+  subtitle: "The new philosophy of residential real estate approach that promotes and enables a new concept of life in accordance with latest tendencies"
+wrapper:
+  enable: 'true'
   subtitle: >-
     The new philosophy of residential real estate approach that promotes and
     enables a new concept of life in accordance with latest tendencies
   title: The KEEBOOTS FAMILY house
 wrapper:
+  enable: 'true'
   content:
     - paragraph: >-
         Kee-Boots is a real estate start up that specialises in innovative
@@ -25,7 +30,6 @@ wrapper:
         It is a way of living with special values, that is now on the decline .
         We revive the spirit of collective working and living in a completely
         new way.
-  enable: true
   italic: Kee-Boots
   title: About Us
 philosofy:
@@ -60,6 +64,7 @@ philosofy:
     the right lifestyle for a new generation of people. We will call this new
     lifestyle “New Exist” (NE).
 
+    Movies, music, news are more and more consumed as one time stream from the cloud rather than buying and storing it on your PC or as a hard copy. Also Bikes, Cars are more and more used via sharing services rather than by owning one. The real estate market also undergoes this change. We see the meteoric rise of office coworking space company “WeWork”. The concept involves buying membership in a global network of offices, rather than buying or renting specific office. The concept also involves global network of members that interact with each other. We also see the efforts to make a start up in the area of residential real estate. For example a “WeWork” spin off “We live”. Roam.co However a lot is yet to be done in this field. We propose to create a new philosophy of residential real estate approach that promotes and enables a new concept of life in accordance with latest tendencies. To adjust the actual Real Estate project we must first define the right lifestyle for a new generation of people. We will call this new lifestyle “New Exist” (NE).
 
     LIving in center of big city.
 
@@ -79,5 +84,6 @@ philosofy:
     The housing solution should address those lifestyle principles.
   enable: 'true'
   title: OUR PHILOSOPHY
+  caption : "sadView Works"
+  url : "#service"
 ---
-
