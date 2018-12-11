@@ -112,5 +112,5 @@ koliving:
 plan:
   content: |
   enable: 'true'
-  tile: Keeboots Coliving
+  title: Keeboots Coliving
 ---
