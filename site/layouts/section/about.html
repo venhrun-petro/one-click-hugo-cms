@@ -1,13 +1,31 @@
 {{ define "main" }}
 
-<div class="ph3 bg-off-white">
-	<div class="center mw6 pv3">
 
-		{{ partial "short-text" .Params.blurb}}
+  {{ if and (isset .Params "intro") (eq .Params.intro.enable "true") }}
+    {{ partial "slider.html" .Params.intro }}
+  {{ end }}
 
-	</div>
-</div>
-{{ .Content }}
+  {{ if and (isset .Params "wrapper") (eq .Params.wrapper.enable "true") }}
+    {{ partial "wrapper.html" .Params.wrapper }}
+  {{ end }}
 
+  {{ if and (isset .Params "philosofy") (eq .Params.philosofy.enable "true" ) }}
+    {{ partial "feature.html" .Params.philosofy }}
+  {{ end }}
+
+
+  {{ if and .Site.Data.service .Site.Data.service.enable }}
+    {{ partial "service.html" . }}
+  {{ end }}
+
+  {{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
+    {{ partial "call-to-action.html" . }}
+  {{ end }}
+
+
+
+  {{ if and (isset .Site.Params "contact") (.Site.Params.contact.enable) }}
+    {{ partial "contact.html" . }}
+  {{ end }}
 
 {{ end }}
