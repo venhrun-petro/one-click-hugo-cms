@@ -5,7 +5,7 @@ intro:
   title: "The KEEBOOTS FAMILY house"
   subtitle: "The new philosophy of residential real estate approach that promotes and enables a new concept of life in accordance with latest tendencies"
 wrapper:
-  enable: 'true'
+  enable: "true"
   subtitle: >-
     The new philosophy of residential real estate approach that promotes and
     enables a new concept of life in accordance with latest tendencies
