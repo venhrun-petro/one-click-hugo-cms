@@ -117,4 +117,9 @@ koliving:
     country: New York
     content: >
       KEEBOOTS FAMILY
+
+plan:
+  enable: "true"
+  title: "Keeboots Coliving"
+  content:
 ---

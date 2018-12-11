@@ -4,10 +4,12 @@
   {{ if and (isset .Params "intro") (eq .Params.intro.enable "true") }}
     {{ partial "slider.html" .Params.intro }}
   {{ end }}
+  {{ partial "slider.html" .Params.intro }}
 
   {{ if and (isset .Params "wrapper") (eq .Params.wrapper.enable "true") }}
     {{ partial "wrapper.html" .Params.wrapper }}
   {{ end }}
+  {{ partial "wrapper.html" .Params.wrapper }}
 
   {{ if and (isset .Params "philosofy") (eq .Params.philosofy.enable "true" ) }}
     {{ partial "feature.html" .Params.philosofy }}
@@ -19,8 +21,8 @@
   {{ end }}
       {{ partial "service.html" .Params.koliving }}
 
-  {{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
-    {{ partial "call-to-action.html" . }}
+  {{ if and (isset .Params "plan") (eq .Params.plan.enable "true") }}
+    {{ partial "call-to-action.html" .Params.plan }}
   {{ end }}
 
 

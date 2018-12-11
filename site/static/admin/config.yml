@@ -99,6 +99,11 @@ collections: # A list of collections the CMS should be able to edit
             {label: Content, name: content, widget: markdown}
             ]}
             ]}
+          - {label: Plan, name: plan, widget: object, fields: [
+            {label: Enable, name: enable, widget: string},
+            {label: Title, name: tile, widget: string},
+            {label: Content, name: content, widget: markdown}
+            ]}
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
