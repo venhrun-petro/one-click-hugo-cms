@@ -72,11 +72,6 @@ collections: # A list of collections the CMS should be able to edit
             {label: Paragraph, name: paragraph, widget: text}
             ]}
             ]}
-          - {label: Philosofy, name: philosofy, widget: object, fields: [
-            {label: Enable, name: enable, widget: string},
-            {label: Title, name: title, widget: string},
-            {label: Content, name: content, widget: markdown}
-            ]}
       - file: "site/content/main/_index.md"
         label: "Main Page"
         name: "main"
