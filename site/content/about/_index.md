@@ -1,5 +1,5 @@
 ---
-title: Main
+title: About
 intro:
   enable: "true"
   title: "The KEEBOOTS FAMILY house"
