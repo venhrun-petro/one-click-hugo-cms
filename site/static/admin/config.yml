@@ -71,16 +71,23 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [
+            {label: Enable, name: enable, widget: string},
             {label: Heading, name: title, widget: text},
-            {label: Body, name: newcontent, widget: markdown}
+            {label: Subtitle, name: subtitle, widget: text}
             ]}
           - {label: About Us, name: wrapper, widget: object, fields: [
+            {label: Enable, name: enable, widget: string},
             {label: Titke, name: title, widget: text},
             {label: Italic, name: italic, widget: text},
             {label: Italic, name: italic, widget: text},
             {label: Content, name: content, widget: list, fields:[
             {label: Paragraph, name: paragraph, widget: text}
             ]}
+            ]}
+          - {label: Philosofy, name: philosofy, widget: object, fields: [
+            {label: Enable, name: enable, widget: string},
+            {label: Title, name: title, widget: string},
+            {label: Content, name: content, widget: markdown}
             ]}
       - file: "site/content/products/_index.md"
         label: "Products Page"

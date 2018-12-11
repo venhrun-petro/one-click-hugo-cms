@@ -2,7 +2,11 @@
 <div class="container">
   <div class="row">
     <div class="col-md-6 col-md-offset-6">
-      <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
+      <h2 class="text-uppercase">{{ .title }}</h2>
+                  <div>{{ .content | markdownify }}<div>
+
+
+
         {{  range .Site.Params.feature.content  }}
       <p class="about_text">
       	{{ .text | markdownify }}

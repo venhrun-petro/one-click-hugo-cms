@@ -1,19 +1,11 @@
 ---
 title: Main
 intro:
-  newcontent: |
-    te t
-    sa
-
-    sa
-     
-    sa
-     
-    as\
-     
-    sa 
-  title: The KEEBOOTS FAMILY house
+  enable: true
+  title: "The KEEBOOTS FAMILY house"
+  subtitle: "The new philosophy of residential real estate approach that promotes and enables a new concept of life in accordance with latest tendencies"
 wrapper:
+  enable: true
   content:
     - paragraph: >-
         Kee-Boots is a real estate start up that specialises in innovative
@@ -34,5 +26,13 @@ wrapper:
         new way.
   italic: Kee-Boots
   title: About Us
----
 
+philosofy:
+  enable: true
+  title: "OUR PHILOSOPHY"
+  content: |
+    te t
+
+
+
+---
