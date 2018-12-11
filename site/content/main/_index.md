@@ -84,4 +84,6 @@ philosofy:
     The housing solution should address those lifestyle principles.
   enable: 'true'
   title: OUR PHILOSOPHY
+  caption : "View Works"
+  url : "#service"
 ---
