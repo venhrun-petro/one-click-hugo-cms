@@ -1,27 +1,55 @@
-<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="8cLu7tWKDbljIXReorIYnXvYMq7NBzz4iqPCQQlKeJw" />
+<!-- robots -->
+<!-- you may configure it in the front matter of the page or in site params -->
+{{ if or (isset .Params "robots") (isset .Site.Params "robots") }}
+<meta name="robots" content="{{ with .Params.robots }}{{ . }}{{ else }}{{ .Site.Params.robots }}{{ end }}">
+{{ end }}
+<link rel="icon" type="image/png" href="{{ .Site.BaseURL }}img/logo.png">
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory
+     or place appropriate <link .../> etc in favicon.html partial -->
+{{ partial "favicon.html" . }}
 
-	<title>{{ .Title }} | Kaldi</title>
-	<link rel="stylesheet" href="/css/main.css" />
+<title>{{ .Title }}</title>
 
-	<meta charset="utf-8">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ .Hugo.Generator }}
 
-	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/owl.carousel.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/bootstrap.min.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/font-awesome.min.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/airspace-local-fonts.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/airspace.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/ionicons.min.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/animate.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/responsive.css" />
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/syntax.css" />
 
-	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#ff4400">
-	<meta name="theme-color" content="#fff">
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="{{ .Site.BaseURL }}js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="{{ .Site.BaseURL }}js/bootstrap.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/plugins.js"></script>
+<script src="{{ .Site.BaseURL }}js/min/waypoints.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/jquery.counterup.js"></script>
 
-	<!-- Open Graph -->
-	<meta property="og:type" content="business.business">
-	<meta property="og:title" content="Kaldi | Great coffee with a conscience">
-	<meta property="og:url" content="/">
-	<meta property="og:image" content="/img/og-image.jpg">
 
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-</head>
+<script src="{{ .Site.BaseURL }}js/main.js"></script>
+
+<!--
+/*
+ * Airspace
+ * Ported to Hugo by Giacomo Mariani
+ * https://github.com/karju-dev/airspace-hugo
+ * Based on the original Jakyll porting by Andrew Lee
+ * https://github.com/luminousrubyist/airspace-jekyll
+ * Designed and Developed by ThemeFisher
+ * https://themefisher.com/
+ *
+ */
+-->

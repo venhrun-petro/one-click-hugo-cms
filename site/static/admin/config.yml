@@ -65,6 +65,22 @@ collections: # A list of collections the CMS should be able to edit
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
           - {label: Body, name: body, widget: markdown}
+      - file: "site/content/main/_index.md"
+        label: "main Page"
+        name: "main"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: object, fields: [
+            {label: Heading, name: title, widget: text},
+            {label: Subtitle, name: subtitle, widget: text}
+            ]}
+          - {label: About Us, name: wrapper, widget: object, fields: [
+            {label: Titke, name: title, widget: text},
+            {label: Italic, name: italic, widget: text},
+            {label: Content, name: content, widget: object, list:[
+            {label: Paragraph, name: paragraph, widget: text}
+            ]}
+            ]}
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"

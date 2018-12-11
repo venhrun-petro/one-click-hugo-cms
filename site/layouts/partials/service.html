@@ -1,0 +1,36 @@
+<!-- Service Start -->
+<section id="service">
+  <div class="container">
+
+    <!-- Intro -->
+    <div class="row">
+      <div class="section-title">
+        <h2>{{ .Site.Data.service.title  }}</h2>
+        {{ if .Site.Data.service.subtitle }}
+        <p>{{ .Site.Data.service.subtitle  }}</p>
+        {{ end }}
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row">
+      {{ range .Site.Data.service.content   }}
+      <div class="col-sm-6 col-md-4">
+        <div class="service-item">
+
+          <img class="service_icon" src="{{ .Site.BaseURL }}./img/man__A.svg" alt="man">
+          <h4>{{ .country }}</h4>
+          <p>{{ .content | markdownify}}</p>
+          <h5>{{ .name }}</h4>
+        </div>
+        <div>
+
+
+        </div>
+
+
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>

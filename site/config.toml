@@ -1,3 +1,174 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Homepage"
+
+
+
+
+
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "About Us"
+    url = "#intro"
+  [[menu.header]]
+    weight = 3
+    name = "Philosophy"
+    url = "#feature"
+  [[menu.header]]
+    weight = 5
+    name = "Keeboots"
+    url = "#call-to-action"
+  [[menu.header]]
+    weight = 4
+    name = "Locations"
+    url = "#service"
+  [[menu.header]]
+    weight = 6
+    name = "Contact Us"
+    url = "#contact-form"
+
+  [[menu.footer]]
+    weight = 2
+    name = "About Us"
+    url = "#intro"
+  [[menu.footer]]
+    weight = 3
+    name = "Philosophy"
+    url = "#feature"
+  [[menu.footer]]
+    weight = 5
+    name = "Keeboots"
+    url = "#call-to-action"
+  [[menu.footer]]
+    weight = 4
+    name = "Locations"
+    url = "#service"
+  [[menu.footer]]
+    weight = 6
+    name = "Contact Us"
+    url = "#contact-form"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2018"
+
+  home = "Home"
+
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "OUR PHILOSOPHY"
+    [[params.feature.content]]
+      text = "Our lives are changing rapidly. Different aspects of our life undergo profound change. For example the social media changed the way we interact with each other. Uber changes the transportation in the cities. Car sharing services make car owning an obsolete concept. And so on. Two clear tendencies can be spotted. Processes are that involve global networking survive."
+      [[params.feature.content.number]]
+        list = "Processes are that involve global networking survive."
+      [[params.feature.content.number]]
+        list = "Ownership of things gives way to “On Demand” services."
+    [[params.feature.content]]
+      text = 'Movies, music, news are more and more consumed as one time stream from the cloud rather than buying and storing it on your PC or as a hard copy. Also Bikes, Cars are more and more used via sharing services rather than by owning one. The real estate market also undergoes this change. We see the meteoric rise of office coworking space company "WeWork". The concept involves buying membership in a global network of offices, rather than buying or renting specific office. The concept also involves global network of members that interact with each other. We also see the efforts to make a start up in the area of residential real estate. For example a "WeWork" spin off "We live". Roam.co However a lot is yet to be done in this field. We propose to create a new philosophy of residential real estate approach that promotes and enables a new concept of life in accordance with latest tendencies. To adjust the actual Real Estate project we must first define the right lifestyle for a new generation of people. We will call this new lifestyle "New Exist" (NE).'
+      [[params.feature.content.number]]
+        list = "LIving in center of big city."
+      [[params.feature.content.number]]
+        list = "Minimal ownership of objects. The NE person owns minimal amount of objects. A few jeans, a few T shirts, sneakers, a notebook and as smartphone is basically all he needs."
+      [[params.feature.content.number]]
+        list = "The NE Person is creative and productive. He values his time. And tries to waste as little time as possible on “technical” household chores such as cleaning, cooking and washing clothes (unless he decides one of those things is a hobby)."
+    [[params.feature.content]]
+      text = "The housing solution should address those lifestyle principles."
+    [params.feature.button]
+      caption = "View Works"
+      url = "#service"
+
+  [params.call]
+    enable = true
+    title = "Keeboots Coliving"
+    [[params.call.paragraph]]
+      paragraph = "We plan to build two types of coliving."
+      [[params.call.paragraph.list]]
+        number = "KEEBOOTS Single. Focused on Single residents and childless couples."
+      [[params.call.paragraph.list]]
+        number = "KEEBOOTS FAMILY Focused on couples with young kids."
+    [[params.call.paragraph]]
+      paragraph = "The KEEBOOTS FAMILY house should have small private apartments with minimal storage space. Kitchen should be very small or not exist at all. Healthy food can and should be produced by professionals, at a specialised workshop. Cleaning should be done by professional stuff."
+    [[params.call.paragraph]]
+      paragraph = "A diverse communal areas should provide the ample space for work and leisure. It should be divided into relatively small areas, just a little bigger than a “living room“ in a conventional apartment. A person will choose which space feels more comfortable for him in a given moment."
+    [[params.call.paragraph]]
+      paragraph = "Today a few companies entered this market with a few very beautiful projects. However this is not even a tip of a iceberg of a huge market."
+    [[params.call.paragraph]]
+      paragraph = "Also virtually all existing projects aim mainly at a young single professionals. Or at best at child free couples."
+    [[params.call.paragraph]]
+      paragraph = "A huge market exist for the same young professionals who either have a kid or two or are expecting one. It is the most challenging period in life and sometimes people make major changes in their life to accommodate to these new circumstances. Some buy a house in a suburb of a “commuter town” and start living a “standard family life”. Some rent a bigger apartment in a family friendly neighbourhood. It usually involves a drastic change in a lifestyle."
+    [[params.call.paragraph]]
+      paragraph = "Such family will usually buy a whole bunch of possessions, such as furniture, toys, kitchenware and so on and will live and move with these objects for the rest of their life."
+    [[params.call.paragraph]]
+      paragraph = "We believe that there is a huge demand for having kids while continuing to live a New Exist lifestyle. Without moving out of the center of the city, without buying a bunch of unnecessary stuff and without becoming a “housewife” who cooks and cleans the huge house all day long."
+    [[params.call.paragraph]]
+      paragraph = "The solution is building a “Keeboots Family coliving” - an residential complex with tiny private apartments and big communal area that provide all the services a family with small kid might need. Some of the services are free and some cost money. A smart system of payment by “tokens” will be introduced."
+    [[params.call.paragraph]]
+      paragraph = "(Tokens as a local currency. not in a cryptocurrency meaning)"
+    [[params.call.paragraph]]
+      paragraph = "A typical Keeboots family coliving will be an apartment complex with the ground flour as a communal area dedicated for the kids and adults attending the kids. And the upper floor as communal area for coworking and leisure without the kids. The floors in between hold the private apartments."
+    [[params.call.paragraph]]
+      paragraph = "The Kids zone on the ground floor is a safe environment with one exit which is controlled by a guard. "
+    [[params.call.paragraph]]
+      paragraph = "The area consists of:"
+      [[params.call.paragraph.list]]
+        number = "Till midnight  Nursery for little babies (tokens)."
+      [[params.call.paragraph.list]]
+        number = "On site nursery for ages 6 month till 2 years (tokens)."
+      [[params.call.paragraph.list]]
+        number = "On site daycare. ages 3 till 5 (tokens)."
+      [[params.call.paragraph.list]]
+        number = "Yoga studio for kids and adults."
+      [[params.call.paragraph.list]]
+        number = "Classrooms for special interest classes (tokens))."
+      [[params.call.paragraph.list]]
+        number = "“Lego room” (free)."
+      [[params.call.paragraph.list]]
+        number = "Dolls room (free)."
+      [[params.call.paragraph.list]]
+        number = "Painting / drawing room (free)."
+      [[params.call.paragraph.list]]
+        number = "Outdoor playing ground with kids bicicles and kick scooters (free)."
+      [[params.call.paragraph.list]]
+        number = "Coworking area behind glass for mothers who want to work but watch their kids playing (tokens)."
+      [[params.call.paragraph.list]]
+        number = "Spa and gym"
+    [[params.call.paragraph]]
+      paragraph = "The upper floor"
+      [[params.call.paragraph.list]]
+        number = "Childfree coworking area"
+      [[params.call.paragraph.list]]
+        number = "Child free leisure zone: Smoking room. Movies room. Lounge area."
+      [[params.call.paragraph.list]]
+        number = "Cafe and food catering service."
+
+
+  [params.contact]
+    enable = true
+    title = "Contact Us"
+    subtitle = "Drop us a note. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "ISRAEL. Gush Etsion. Luleem compound."
+      email = "Email: zeev@keeboots.com"
+      phone = "Phone: +97 252 2873 173"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"

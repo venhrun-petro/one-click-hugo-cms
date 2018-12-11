@@ -1,0 +1,151 @@
+/*
+ * This css file includes styles added in the jekyll port of this theme.
+ * To find the original style.css that ships with Airspace, read airspace.css
+ *
+ */
+
+ .italic {
+   font-style: italic;
+ }
+
+ .bold {
+   font-weight: bold;
+ }
+
+ .center-text {
+   text-align: center;
+ }
+
+.post-area {
+  padding: 40px;
+  width: 100%;
+  min-height: 150px;
+  background-color: white;
+  border-bottom: 1px dotted #ddd;
+}
+
+.post-area a:link, .post-area a:visited {
+  font-size: 30px;
+  color: #333;
+}
+
+.post-area a:hover {
+  color: #0D0017;
+}
+.my-maps{
+  max-width: 550px;
+  width: 100%;
+}
+.cont_maps{
+  width: 100%;
+  display: table;
+  position: relative;
+}
+
+.block_paragraph{
+  padding-top: 0px!important;
+}
+.about_text{
+  text-align: justify;
+}
+.my-list{
+  margin: 10px 0;
+  text-align: left;
+}
+.v-form-control{
+  min-height: 140px;
+  margin-bottom: 10px;
+  background: #F6F8FA;
+  border: 1px solid #EEF2F6;
+
+}
+.v-form-control:focus, .v-form-control:active, .v-form-control:hover{
+  outline: none!important;
+  box-shadow: none!important;
+  border: 1px solid #EEF2F6!important;
+}
+.v-block{
+  max-width: 776px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.v-block .about_text{
+  font-size: 16px!important;
+}
+.navbar-brand>img {
+    display: block;
+    width: 70px!important;
+}
+.service_icon{
+  width: 50px;
+}
+#slider .block p{
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+header{
+  padding: 0!important;
+}
+header .navbar-default .navbar-nav{
+  padding: 20px 0!important;
+}
+#slider, #call-to-action{
+  background-position: center!important;
+}
+#intro {
+    padding: 100px 0;
+    background: url(../img/wrapper-img.jpg) right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#intro .block img {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  header .navbar-default .navbar-nav li a {
+      padding: 10px 20px;
+  }
+  .col-md-offset-6{
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #feature{
+    background-position: right center;
+  }
+  #intro{
+    background-position: center right;
+  }
+  #intro .block p, #intro .block h2 {
+    color: white;
+  }
+  #intro{
+    position: relative;
+  }
+  #intro:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-color: rgba(29,25,44,0.6);
+  }
+  #intro .section-title{
+    position: relative;
+    z-index: 99999;
+  }
+  .col-md-offset-6{
+    margin-left:0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #feature{
+    background-position: 75% center;
+  }
+}
