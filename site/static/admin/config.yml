@@ -77,7 +77,7 @@ collections: # A list of collections the CMS should be able to edit
             ]}
           - {label: About Us, name: wrapper, widget: object, fields: [
             {label: Enable, name: enable, widget: string},
-            {label: Titke, name: title, widget: text},
+            {label: Title, name: title, widget: text},
             {label: Italic, name: italic, widget: text},
             {label: Italic, name: italic, widget: text},
             {label: Content, name: content, widget: list, fields:[
@@ -88,6 +88,16 @@ collections: # A list of collections the CMS should be able to edit
             {label: Enable, name: enable, widget: string},
             {label: Title, name: title, widget: string},
             {label: Content, name: content, widget: markdown}
+            ]}
+          - {label: Koliving, name: koliving, widget: object, fields: [
+            {label: Enable, name: enable, widget: string},
+            {label: Title, name: title, widget: string},
+            {label: Block, name: block, widget: list, fields:[
+            {label: Image, name: img, widget: image},
+            {label: Name, name: name, widget: string},
+            {label: Country, name: country, widget: string},
+            {label: Content, name: content, widget: markdown}
+            ]}
             ]}
       - file: "site/content/products/_index.md"
         label: "Products Page"

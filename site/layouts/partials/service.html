@@ -5,20 +5,17 @@
     <!-- Intro -->
     <div class="row">
       <div class="section-title">
-        <h2>{{ .Site.Data.service.title  }}</h2>
-        {{ if .Site.Data.service.subtitle }}
-        <p>{{ .Site.Data.service.subtitle  }}</p>
-        {{ end }}
+        <h2>{{ .title  }}</h2>
       </div>
     </div>
 
     <!-- Content -->
     <div class="row">
-      {{ range .Site.Data.service.content   }}
+      {{ range .block   }}
       <div class="col-sm-6 col-md-4">
         <div class="service-item">
 
-          <img class="service_icon" src="{{ .Site.BaseURL }}./img/man__A.svg" alt="man">
+          <img class="service_icon" src="{{ .Site.BaseURL }}{{.img}}" alt="man">
           <h4>{{ .country }}</h4>
           <p>{{ .content | markdownify}}</p>
           <h5>{{ .name }}</h4>

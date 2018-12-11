@@ -1,0 +1,39 @@
+enable: true
+title: Locations
+# subtitle: >
+#   The NEW Person is creative and productive. He values his time. The housing solution should address those lifestyle principles.
+content:
+
+  - icon: ion-coffee
+    name: Gush Etsion
+    country: Israel
+    content: >
+          [LULEEM](https://luleem.com/) coworking space. Book your office now.
+
+  - icon: ion-compass
+    name: Coming Soon
+    country: Israel
+    content: >
+      Tel Aviv.
+      KEEBOOTS FAMILY
+
+  - icon: ion-image
+    name: Coming Soon
+    country: Israel
+    content: >
+      Jerusalem.
+      KEEBOOTS FAMILY
+
+  - icon: ion-bug
+    name: Imanuel
+    country: Israel
+    content: >
+      2021
+      KEEBOOTS FAMILY
+      Plans. Pictures.
+
+  - icon: ion-headphone
+    name: Coming Soon
+    country: New York
+    content: >
+      KEEBOOTS FAMILY

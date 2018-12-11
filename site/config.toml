@@ -67,28 +67,7 @@ title = "Homepage"
     title = "Get The Latest On What We're doing"
     subtitle = "Catch up with us, anytime and anywhere"
 
-  [params.feature]
-    enable = true
-    title = "OUR PHILOSOPHY"
-    [[params.feature.content]]
-      text = "Our lives are changing rapidly. Different aspects of our life undergo profound change. For example the social media changed the way we interact with each other. Uber changes the transportation in the cities. Car sharing services make car owning an obsolete concept. And so on. Two clear tendencies can be spotted. Processes are that involve global networking survive."
-      [[params.feature.content.number]]
-        list = "Processes are that involve global networking survive."
-      [[params.feature.content.number]]
-        list = "Ownership of things gives way to “On Demand” services."
-    [[params.feature.content]]
-      text = 'Movies, music, news are more and more consumed as one time stream from the cloud rather than buying and storing it on your PC or as a hard copy. Also Bikes, Cars are more and more used via sharing services rather than by owning one. The real estate market also undergoes this change. We see the meteoric rise of office coworking space company "WeWork". The concept involves buying membership in a global network of offices, rather than buying or renting specific office. The concept also involves global network of members that interact with each other. We also see the efforts to make a start up in the area of residential real estate. For example a "WeWork" spin off "We live". Roam.co However a lot is yet to be done in this field. We propose to create a new philosophy of residential real estate approach that promotes and enables a new concept of life in accordance with latest tendencies. To adjust the actual Real Estate project we must first define the right lifestyle for a new generation of people. We will call this new lifestyle "New Exist" (NE).'
-      [[params.feature.content.number]]
-        list = "LIving in center of big city."
-      [[params.feature.content.number]]
-        list = "Minimal ownership of objects. The NE person owns minimal amount of objects. A few jeans, a few T shirts, sneakers, a notebook and as smartphone is basically all he needs."
-      [[params.feature.content.number]]
-        list = "The NE Person is creative and productive. He values his time. And tries to waste as little time as possible on “technical” household chores such as cleaning, cooking and washing clothes (unless he decides one of those things is a hobby)."
-    [[params.feature.content]]
-      text = "The housing solution should address those lifestyle principles."
-    [params.feature.button]
-      caption = "View Works"
-      url = "#service"
+
 
   [params.call]
     enable = true

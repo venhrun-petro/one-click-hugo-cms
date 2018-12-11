@@ -1,16 +1,23 @@
 {{ define "main" }}
 
-  {{ partial "slider.html" .Params.intro }}
-  {{ partial "wrapper.html" .Params.wrapper }}
 
-  {{ if and (isset .Params "philosofy") (.Params.philosofy.enable) }}
+  {{ if and (isset .Params "intro") (eq .Params.intro.enable "true") }}
+    {{ partial "slider.html" .Params.intro }}
+  {{ end }}
+
+  {{ if and (isset .Params "wrapper") (eq .Params.wrapper.enable "true") }}
+    {{ partial "wrapper.html" .Params.wrapper }}
+  {{ end }}
+
+  {{ if and (isset .Params "philosofy") (eq .Params.philosofy.enable "true" ) }}
     {{ partial "feature.html" .Params.philosofy }}
   {{ end }}
 
 
-  {{ if and .Site.Data.service .Site.Data.service.enable }}
-    {{ partial "service.html" . }}
+  {{ if and (isset .Params "koliving") (eq .Params.koliving.enable "true") }}
+    {{ partial "service.html" .Params.koliving }}
   {{ end }}
+      {{ partial "service.html" .Params.koliving }}
 
   {{ if and (isset .Site.Params "call") (.Site.Params.call.enable) }}
     {{ partial "call-to-action.html" . }}

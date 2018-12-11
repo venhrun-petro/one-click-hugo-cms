@@ -79,5 +79,42 @@ philosofy:
     The housing solution should address those lifestyle principles.
   enable: 'true'
   title: OUR PHILOSOPHY
----
 
+koliving:
+  enable: true
+  title: "Keeboots Coliving"
+  block:
+  - img: /img/man__A.svg
+    name: Gush Etsion
+    country: Israel
+    content: >
+          [LULEEM](https://luleem.com/) coworking space. Book your office now.
+
+  - img: /img/man__A.svg
+    name: Coming Soon
+    country: Israel
+    content: >
+      Tel Aviv.
+      KEEBOOTS FAMILY
+
+  - img: /img/man__A.svg
+    name: Coming Soon
+    country: Israel
+    content: >
+      Jerusalem.
+      KEEBOOTS FAMILY
+
+  - img: /img/man__A.svg
+    name: Imanuel
+    country: Israel
+    content: >
+      2021
+      KEEBOOTS FAMILY
+      Plans. Pictures.
+
+  - img: /img/man__A.svg
+    name: Coming Soon
+    country: New York
+    content: >
+      KEEBOOTS FAMILY
+---
