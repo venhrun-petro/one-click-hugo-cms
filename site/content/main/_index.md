@@ -77,6 +77,9 @@ philosofy:
 
 
     The housing solution should address those lifestyle principles.
+
+
+    ## test
   enable: 'true'
   title: OUR PHILOSOPHY
 koliving:
