@@ -77,7 +77,7 @@ philosofy:
 
 
     The housing solution should address those lifestyle principles.
-  enable: ''
+  enable: 'true'
   title: OUR PHILOSOPHY
 ---
 
