@@ -7,11 +7,15 @@
 			{{ range first 4 (where .Data.Pages "Type" "post") }}
 
 				<div class="ph1-ns w-50-ns flex">
-						<img src="{{ .Params.image }}" alt="{{ .Title }}" />
+						<img src="{{ .image }}" alt="{{ .Title }}" />
 					{{ .Render "li" }}
 				</div>
 			{{ end }}
 		</div>
+
+
+
+
 
 		<div class="tc">
 			<a href="/post" class="btn raise">Read more</a>
