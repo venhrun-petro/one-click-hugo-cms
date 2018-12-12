@@ -108,6 +108,10 @@ header .navbar-default .navbar-nav{
     text-align: center!important;
     padding: 25px 0!important;
 }
+.v-pv{
+  width: 100%!important;
+  max-width: 100%!important;
+}
 .center {
   margin: 0 auto;
   width: 72%;
