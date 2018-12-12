@@ -102,7 +102,33 @@ header .navbar-default .navbar-nav{
 #intro .block img {
   display: none;
 }
-
+.bg-primary {
+    color: #fff!important;
+    background-color: black!important;
+    text-align: center!important;
+    padding: 25px 0!important;
+}
+.flex-ns{
+  margin: 0 auto;
+  width: 72%;
+  max-width: 1170px;
+}
+.lh-title{
+  color: black;
+    font-weight: 600;
+}
+.mid-gray, .link{
+  color: #888;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.mb0{
+  padding-top: 20px;
+margin: 0;
+color: #666;
+}
 @media only screen and (max-width: 992px) {
   header .navbar-default .navbar-nav li a {
       padding: 10px 20px;
