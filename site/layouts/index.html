@@ -1,13 +1,18 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+  {{ partial "slider.html" .Params.intro }}
 
-{{ partial "short-text" .Params.blurb}}
+  {{ partial "wrapper.html" .Params.wrapper }}
 
-{{ partial "2-up" .Params }}
+  {{ partial "feature.html" .Params.philosofy }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+  {{ partial "service.html" .Params.koliving }}
 
-{{ partial "blog" . }}
+  {{ partial "call-to-action.html" .Params.plan }}
+
+
+  {{ if and (isset .Site.Params "contact") (.Site.Params.contact.enable) }}
+    {{ partial "contact.html" . }}
+  {{ end }}
 
 {{ end }}
