@@ -7,7 +7,7 @@
 			{{ range first 4 (where .Data.Pages "Type" "post") }}
 
 				<div class="ph1-ns w-50-ns flex">
-						<img src="{{ .image }}" alt="{{ .Title }}" />
+
 					{{ .Render "li" }}
 				</div>
 			{{ end }}
