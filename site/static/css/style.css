@@ -110,16 +110,19 @@ header .navbar-default .navbar-nav{
     padding: 25px 0!important;
 }
 .post-ing{
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: table;
 }
 .v-pv{
   width: 100%!important;
   max-width: 100%!important;
 }
 .center {
-  margin: 0 auto;
+  /* margin: 0 auto;
   width: 72%;
-  max-width: 1170px;
+  max-width: 1170px; */
 }
 .lh-title{
   color: black;
@@ -136,6 +139,20 @@ header .navbar-default .navbar-nav{
   padding-top: 20px;
 margin: 0;
 color: #666;
+}
+.w-50-ns.ph1-ns.flex{
+  width: 33.33%;
+  float: left;
+      min-width: 240px;
+  padding: 20px 10px;
+
+}
+.v-cont{
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
 }
 @media only screen and (max-width: 992px) {
   header .navbar-default .navbar-nav li a {
@@ -177,7 +194,12 @@ color: #666;
     margin-left:0;
   }
 }
-
+@media only screen and (max-width: 767px) {
+  .w-50-ns.ph1-ns.flex{
+    min-width: 100%;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 480px) {
   #feature{
     background-position: 75% center;
