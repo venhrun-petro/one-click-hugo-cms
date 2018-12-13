@@ -57,7 +57,7 @@ collections:
             ]}
       - file: "site/data/test.yaml"
         label: "Test Page"
-        name: "home"
+        name: "test"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [
