@@ -83,7 +83,9 @@ collections:
             {label: Image, name: img, widget: image},
             {label: Content, name: content, widget: markdown}
             ]}
-        file: "site/data/service.yaml"
+      - file: "site/data/service.yaml"
+        label: "Test Page"
+        name: "test"
         fields:
           - {label: Koliving, name: koliving, widget: object, fields: [
             {label: Title, name: title, widget: string},
