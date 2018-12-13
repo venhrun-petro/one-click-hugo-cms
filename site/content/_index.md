@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Main
 intro:
   img: /img/slider-bg.jpg
   subtitle: >-
