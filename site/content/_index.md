@@ -80,7 +80,8 @@ philosofy:
 koliving:
   block:
     - content: |
-        [LULEEM](https://luleem.com/) coworking space. Book your office now.
+        [LULEEM](https://luleem.com/ "title" target="_blank")
+        coworking space. Book your office now.
       country: Israel
       img: /img/man__A.svg
       name: Gush Etsion
@@ -111,4 +112,3 @@ plan:
   img: /img/call-to-action-bg.jpg
   title: Keeboots Coliving
 ---
-
