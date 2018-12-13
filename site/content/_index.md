@@ -80,7 +80,7 @@ philosofy:
 koliving:
   block:
     - content: |-
-        \[LULEEM](https://luleem.com/  "" target="_blank")
+        \[LULEEM](https://luleem.com/  "t" target="_blank")
         coworking space. Book your office now.
       country: Israel
       img: /img/man__A.svg
