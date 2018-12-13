@@ -79,8 +79,8 @@ philosofy:
   title: OUR PHILOSOPHY
 koliving:
   block:
-    - content: |
-        [LULEEM](https://luleem.com/ "title" target="_blank")
+    - content: |-
+        \[LULEEM](https://luleem.com/   target="_blank")
         coworking space. Book your office now.
       country: Israel
       img: /img/man__A.svg
@@ -112,3 +112,4 @@ plan:
   img: /img/call-to-action-bg.jpg
   title: Keeboots Coliving
 ---
+
