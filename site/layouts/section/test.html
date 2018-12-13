@@ -1,0 +1,51 @@
+
+{{ define "main" }}
+
+  {{ partial "slider.html" .Params.intro }}
+
+  {{ partial "wrapper.html" .Params.wrapper }}
+
+  {{ partial "feature.html" .Params.philosofy }}
+
+  <section id="service">
+    <div class="container">
+
+      <!-- Intro -->
+      <div class="row">
+        <div class="section-title">
+          <h2>{{ .Site.Data.service.koliving.title  }}</h2>
+
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="row">
+        {{ range .Site.Data.service.koliving.block   }}
+        <div class="col-sm-6 col-md-4">
+          <div class="service-item">
+
+            <img class="service_icon" src="{{ .Site.BaseURL }}{{.img}}" alt="man">
+            <h4>{{ .country }}</h4>
+            <p>{{ .content | markdownify}}</p>
+            <h5>{{ .name }}</h4>
+          </div>
+          <div>
+
+
+          </div>
+
+
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  {{ partial "call-to-action.html" .Params.plan }}
+
+
+  {{ if and (isset .Site.Params "contact") (.Site.Params.contact.enable) }}
+    {{ partial "contact.html" . }}
+  {{ end }}
+
+{{ end }}
